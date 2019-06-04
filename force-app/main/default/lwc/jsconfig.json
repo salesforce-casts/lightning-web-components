@@ -5,9 +5,6 @@
         "paths": {
             "c/exploreHelloWorld": [
                 "exploreHelloWorld/exploreHelloWorld.js"
-            ],
-            "c/exploreHelloWorldSub": [
-                "exploreHelloWorldSub/exploreHelloWorldSub.js"
             ]
         }
     },
