@@ -3,11 +3,14 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/exploreHelloWorld": [
-                "exploreHelloWorld/exploreHelloWorld.js"
+            "c/exploreDataBinding": [
+                "exploreDataBinding/exploreDataBinding.js"
             ],
             "c/exploreFolderStructure": [
                 "exploreFolderStructure/exploreFolderStructure.js"
+            ],
+            "c/exploreHelloWorld": [
+                "exploreHelloWorld/exploreHelloWorld.js"
             ]
         }
     },
