@@ -8,3 +8,8 @@ export default class ExploreFolderStructure extends LightningElement {
         console.log(this.greeting);
     }
 }
+
+export function foobar(){
+
+    
+}
