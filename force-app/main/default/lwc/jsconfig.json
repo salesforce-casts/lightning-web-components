@@ -3,14 +3,20 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/exploreDataBinding": [
+                "exploreDataBinding/exploreDataBinding.js"
+            ],
+            "c/exploreDecorators": [
+                "exploreDecorators/exploreDecorators.js"
+            ],
             "c/exploreFolderStructure": [
                 "exploreFolderStructure/exploreFolderStructure.js"
             ],
             "c/exploreHelloWorld": [
                 "exploreHelloWorld/exploreHelloWorld.js"
             ],
-            "c/exploreDataBinding": [
-                "exploreDataBinding/exploreDataBinding.js"
+            "c/exploreParentDecorator": [
+                "exploreParentDecorator/exploreParentDecorator.js"
             ]
         }
     },
