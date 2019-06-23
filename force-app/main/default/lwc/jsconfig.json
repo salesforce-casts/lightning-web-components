@@ -17,6 +17,9 @@
             ],
             "c/exploreParentDecorator": [
                 "exploreParentDecorator/exploreParentDecorator.js"
+            ],
+            "c/exploreSettersGetters": [
+                "exploreSettersGetters/exploreSettersGetters.js"
             ]
         }
     },
