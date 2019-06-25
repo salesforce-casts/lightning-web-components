@@ -15,11 +15,20 @@
             "c/exploreHelloWorld": [
                 "exploreHelloWorld/exploreHelloWorld.js"
             ],
+            "c/exploreIterators": [
+                "exploreIterators/exploreIterators.js"
+            ],
             "c/exploreParentDecorator": [
                 "exploreParentDecorator/exploreParentDecorator.js"
             ],
             "c/exploreSettersGetters": [
                 "exploreSettersGetters/exploreSettersGetters.js"
+            ],
+            "c/exploreTaxCalculator": [
+                "exploreTaxCalculator/exploreTaxCalculator.js"
+            ],
+            "c/exploreMath": [
+                "exploreMath/exploreMath.js"
             ]
         }
     },

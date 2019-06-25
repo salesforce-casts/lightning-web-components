@@ -1,0 +1,12 @@
+<template>
+    <!-- One field to accept the total amount
+    one field to accept the tax % -->
+
+    <lightning-input name="totalAmount" label="Total Amount" onchange={handleChange}></lightning-input>
+    <lightning-input name="taxPercentage" label="Tax %" onchange={handleChange}></lightning-input>
+    
+        Total payable Tax amount is {totalTaxAmount}
+
+    <c-explore-math></c-explore-math>
+
+</template>
