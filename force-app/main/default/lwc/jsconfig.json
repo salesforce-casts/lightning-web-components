@@ -18,6 +18,9 @@
             "c/exploreIterators": [
                 "exploreIterators/exploreIterators.js"
             ],
+            "c/exploreMath": [
+                "exploreMath/exploreMath.js"
+            ],
             "c/exploreParentDecorator": [
                 "exploreParentDecorator/exploreParentDecorator.js"
             ],
@@ -27,8 +30,8 @@
             "c/exploreTaxCalculator": [
                 "exploreTaxCalculator/exploreTaxCalculator.js"
             ],
-            "c/exploreMath": [
-                "exploreMath/exploreMath.js"
+            "c/exploreTodoList": [
+                "exploreTodoList/exploreTodoList.js"
             ]
         }
     },
