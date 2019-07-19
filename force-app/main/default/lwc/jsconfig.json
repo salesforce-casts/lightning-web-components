@@ -18,6 +18,9 @@
             "c/exploreIterators": [
                 "exploreIterators/exploreIterators.js"
             ],
+            "c/exploreLightningRecordForm": [
+                "exploreLightningRecordForm/exploreLightningRecordForm.js"
+            ],
             "c/exploreMath": [
                 "exploreMath/exploreMath.js"
             ],
