@@ -38,6 +38,9 @@
             ],
             "c/exploreTodoList": [
                 "exploreTodoList/exploreTodoList.js"
+            ],
+            "c/exploreLDSGetRecord": [
+                "exploreLDSGetRecord/exploreLDSGetRecord.js"
             ]
         }
     },
