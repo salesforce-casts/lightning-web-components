@@ -27,6 +27,9 @@
             "c/exploreParentDecorator": [
                 "exploreParentDecorator/exploreParentDecorator.js"
             ],
+            "c/exploreRecordViewEditForm": [
+                "exploreRecordViewEditForm/exploreRecordViewEditForm.js"
+            ],
             "c/exploreSettersGetters": [
                 "exploreSettersGetters/exploreSettersGetters.js"
             ],
