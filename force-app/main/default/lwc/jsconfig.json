@@ -44,6 +44,9 @@
             ],
             "c/exploreTodoList": [
                 "exploreTodoList/exploreTodoList.js"
+            ],
+            "c/exploreLDSCreateRecord": [
+                "exploreLDSCreateRecord/exploreLDSCreateRecord.js"
             ]
         }
     },
