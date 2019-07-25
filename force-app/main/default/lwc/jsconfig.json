@@ -18,6 +18,12 @@
             "c/exploreIterators": [
                 "exploreIterators/exploreIterators.js"
             ],
+            "c/exploreLDSGetRecord": [
+                "exploreLDSGetRecord/exploreLDSGetRecord.js"
+            ],
+            "c/exploreLDSHandlers": [
+                "exploreLDSHandlers/exploreLDSHandlers.js"
+            ],
             "c/exploreLightningRecordForm": [
                 "exploreLightningRecordForm/exploreLightningRecordForm.js"
             ],
@@ -38,12 +44,6 @@
             ],
             "c/exploreTodoList": [
                 "exploreTodoList/exploreTodoList.js"
-            ],
-            "c/exploreLDSGetRecord": [
-                "exploreLDSGetRecord/exploreLDSGetRecord.js"
-            ],
-            "c/exploreLDSHandlers": [
-                "exploreLDSHandlers/exploreLDSHandlers.js"
             ]
         }
     },
