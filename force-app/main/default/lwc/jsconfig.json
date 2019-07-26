@@ -47,6 +47,9 @@
             ],
             "c/exploreLDSCreateRecord": [
                 "exploreLDSCreateRecord/exploreLDSCreateRecord.js"
+            ],
+            "c/exploreLDSUpdateRecord": [
+                "exploreLDSUpdateRecord/exploreLDSUpdateRecord.js"
             ]
         }
     },

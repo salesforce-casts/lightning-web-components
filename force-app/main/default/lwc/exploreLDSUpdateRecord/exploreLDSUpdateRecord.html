@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Update Record" icon-name="standard:record">
+        <div class="slds-m-around_medium">
+
+            <template if:true={contact.data}>
+                <lightning-input label="Id" disabled value={contact.data.Id}></lightning-input>
+                <lightning-input label="First Name" data-field="FirstName" value={contact.data.FirstName}></lightning-input>
+                <lightning-input label="Last Name" data-field="LastName" value={contact.data.LastName}></lightning-input>
+
+                <lightning-button label="Update Contact" onclick={handleClick}></lightning-button>
+
+            </template>
+
+        </div>
+    </lightning-card>    
+</template>
