@@ -18,11 +18,17 @@
             "c/exploreIterators": [
                 "exploreIterators/exploreIterators.js"
             ],
+            "c/exploreLDSCreateRecord": [
+                "exploreLDSCreateRecord/exploreLDSCreateRecord.js"
+            ],
             "c/exploreLDSGetRecord": [
                 "exploreLDSGetRecord/exploreLDSGetRecord.js"
             ],
             "c/exploreLDSHandlers": [
                 "exploreLDSHandlers/exploreLDSHandlers.js"
+            ],
+            "c/exploreLDSUpdateRecord": [
+                "exploreLDSUpdateRecord/exploreLDSUpdateRecord.js"
             ],
             "c/exploreLightningRecordForm": [
                 "exploreLightningRecordForm/exploreLightningRecordForm.js"
@@ -45,11 +51,14 @@
             "c/exploreTodoList": [
                 "exploreTodoList/exploreTodoList.js"
             ],
-            "c/exploreLDSCreateRecord": [
-                "exploreLDSCreateRecord/exploreLDSCreateRecord.js"
+            "c/exploreBroadcasterComponent": [
+                "exploreBroadcasterComponent/exploreBroadcasterComponent.js"
             ],
-            "c/exploreLDSUpdateRecord": [
-                "exploreLDSUpdateRecord/exploreLDSUpdateRecord.js"
+            "c/exploreReceiverComponent": [
+                "exploreReceiverComponent/exploreReceiverComponent.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
             ]
         }
     },
