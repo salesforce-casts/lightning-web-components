@@ -13,18 +13,18 @@ export default class ExploreWireService extends LightningElement {
     @api recordId
 
     @wire(getRecord, {recordId: '$recordId', fields: FIELDS }) 
-    account;
+    record
 
     get name(){
-        return this.account.data.fields.Name.value;
+        return this.record.data.fields.Name.value;
     }
     
     get industry(){
-        return this.account.data.fields.Industry.value;
+        return this.record.data.fields.Industry.value;
     }
     
     get rating(){
-        return this.account.data.fields.Rating.value;
+        return this.record.data.fields.Rating.value;
     }
     
     
