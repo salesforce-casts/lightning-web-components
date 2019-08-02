@@ -65,6 +65,9 @@
             ],
             "c/wireGetRecordDynamicContact": [
                 "wireGetRecordDynamicContact/wireGetRecordDynamicContact.js"
+            ],
+            "c/exploreWireServiceApexMethod": [
+                "exploreWireServiceApexMethod/exploreWireServiceApexMethod.js"
             ]
         }
     },
