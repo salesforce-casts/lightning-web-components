@@ -3,6 +3,9 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/exploreBroadcasterComponent": [
+                "exploreBroadcasterComponent/exploreBroadcasterComponent.js"
+            ],
             "c/exploreDataBinding": [
                 "exploreDataBinding/exploreDataBinding.js"
             ],
@@ -39,6 +42,9 @@
             "c/exploreParentDecorator": [
                 "exploreParentDecorator/exploreParentDecorator.js"
             ],
+            "c/exploreReceiverComponent": [
+                "exploreReceiverComponent/exploreReceiverComponent.js"
+            ],
             "c/exploreRecordViewEditForm": [
                 "exploreRecordViewEditForm/exploreRecordViewEditForm.js"
             ],
@@ -51,14 +57,14 @@
             "c/exploreTodoList": [
                 "exploreTodoList/exploreTodoList.js"
             ],
-            "c/exploreBroadcasterComponent": [
-                "exploreBroadcasterComponent/exploreBroadcasterComponent.js"
-            ],
-            "c/exploreReceiverComponent": [
-                "exploreReceiverComponent/exploreReceiverComponent.js"
+            "c/exploreWireService": [
+                "exploreWireService/exploreWireService.js"
             ],
             "c/pubsub": [
                 "pubsub/pubsub.js"
+            ],
+            "c/wireGetRecordDynamicContact": [
+                "wireGetRecordDynamicContact/wireGetRecordDynamicContact.js"
             ]
         }
     },
