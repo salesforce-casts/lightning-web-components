@@ -57,17 +57,20 @@
             "c/exploreTodoList": [
                 "exploreTodoList/exploreTodoList.js"
             ],
+            "c/exploreWireApexMethodWithParams": [
+                "exploreWireApexMethodWithParams/exploreWireApexMethodWithParams.js"
+            ],
             "c/exploreWireService": [
                 "exploreWireService/exploreWireService.js"
+            ],
+            "c/exploreWireServiceApexMethod": [
+                "exploreWireServiceApexMethod/exploreWireServiceApexMethod.js"
             ],
             "c/pubsub": [
                 "pubsub/pubsub.js"
             ],
             "c/wireGetRecordDynamicContact": [
                 "wireGetRecordDynamicContact/wireGetRecordDynamicContact.js"
-            ],
-            "c/exploreWireServiceApexMethod": [
-                "exploreWireServiceApexMethod/exploreWireServiceApexMethod.js"
             ]
         }
     },
