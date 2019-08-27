@@ -48,26 +48,3 @@ export default class ExploreLDSUpdateRecord extends LightningElement {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

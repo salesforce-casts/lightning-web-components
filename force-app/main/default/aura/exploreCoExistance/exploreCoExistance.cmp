@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable" >
+    <aura:attribute name="msg" type="String" />
+	This is coming from Aura Component
+    
+    <c:exploreLWCCoExistence onsenddata="{! c.handleSendData }"/>
+    
+    {!v.msg}
+</aura:component>

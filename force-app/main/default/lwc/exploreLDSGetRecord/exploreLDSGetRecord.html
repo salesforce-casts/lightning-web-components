@@ -1,6 +1,7 @@
 <template>
     <lightning-record-view-form record-id={recordId}
-                                object-api-name={accountObject}>
+                                object-api-name={accountObject}
+                                onerror={handleError}>
         <lightning-formatted-text value={customNameRendering}></lightning-formatted-text>                                
     </lightning-record-view-form>
 </template>

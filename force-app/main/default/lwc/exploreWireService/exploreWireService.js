@@ -1,4 +1,4 @@
-import { LightningElement, api, wire } from 'lwc';
+import { LightningElement, api, wire, track } from 'lwc';
 
 import { getRecord } from 'lightning/uiRecordApi';
 
@@ -10,16 +10,28 @@ const FIELDS = [
 
 export default class ExploreWireService extends LightningElement {
 
-    @api recordId
+    @api recordId;
+    @track contacts;
+    @track error;
 
     @wire(getRecord, {recordId: '$recordId', fields: FIELDS }) 
-    record
-
-    get name(){
-        return this.record.data.fields.Name.value;
+    wiredContacts({ error, data }) {
+        if (data) {
+            this.contacts = data;
+            this.error = undefined;
+        } else if (error) {
+            this.error = error;
+            this.contacts = undefined;
+        }
     }
-    
-    get industry(){
+
+    /** 
+     
+     get name(){
+         return this.record.data.fields.Name.value;
+        }
+        
+        get industry(){
         return this.record.data.fields.Industry.value;
     }
     
@@ -27,6 +39,7 @@ export default class ExploreWireService extends LightningElement {
         return this.record.data.fields.Rating.value;
     }
     
+    */
     
 
 }

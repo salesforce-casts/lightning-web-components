@@ -21,7 +21,11 @@ export default class ExploreReceiverComponent extends LightningElement {
     handleCallback(data){
 
         // eslint-disable-next-line no-console
-        console.log(data);
+        console.log(data.name);
+        // eslint-disable-next-line no-console
+        console.log(data.age);
+        // eslint-disable-next-line no-console
+        console.log(data.gender);
     }
 
 }

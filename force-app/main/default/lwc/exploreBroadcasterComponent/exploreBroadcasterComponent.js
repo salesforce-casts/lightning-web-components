@@ -10,7 +10,7 @@ export default class ExploreBroadcasterComponent extends LightningElement {
     @wire(CurrentPageReference) CurrentPageReference;
 
     handleClick(){
-        fireEvent(this.CurrentPageReference, "sendData", this.person)
+        fireEvent(this.CurrentPageReference, "sendData", this.message)
     }
     
 }

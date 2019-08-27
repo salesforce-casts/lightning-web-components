@@ -1,0 +1,15 @@
+<template>
+    <lightning-record-edit-form object-api-name={accountObject} onsuccess={handleAccountCreated}>
+        <lightning-messages></lightning-messages>
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input-field field-name={nameField}></lightning-input-field>
+                <lightning-input-field field-name={websiteField}></lightning-input-field>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <!-- More lightning-input-field components here -->
+            </div>
+         </div>
+        <lightning-button type="submit" variant="brand" label="Create Account"></lightning-button>
+    </lightning-record-edit-form>
+</template>
