@@ -33,8 +33,14 @@
             "c/exploreLDSUpdateRecord": [
                 "exploreLDSUpdateRecord/exploreLDSUpdateRecord.js"
             ],
+            "c/exploreLWCCoExistence": [
+                "exploreLWCCoExistence/exploreLWCCoExistence.js"
+            ],
             "c/exploreLightningRecordForm": [
                 "exploreLightningRecordForm/exploreLightningRecordForm.js"
+            ],
+            "c/exploreLtngOut": [
+                "exploreLtngOut/exploreLtngOut.js"
             ],
             "c/exploreMath": [
                 "exploreMath/exploreMath.js"
@@ -50,6 +56,9 @@
             ],
             "c/exploreSettersGetters": [
                 "exploreSettersGetters/exploreSettersGetters.js"
+            ],
+            "c/exploreTargetTags": [
+                "exploreTargetTags/exploreTargetTags.js"
             ],
             "c/exploreTaxCalculator": [
                 "exploreTaxCalculator/exploreTaxCalculator.js"
