@@ -9,9 +9,6 @@ export default class ExploreBasicNavigation extends NavigationMixin(LightningEle
             attributes: {
                 objectApiName: "Case",
                 actionName: "home"
-            },
-            state: {
-                "tingtong": "chungchong"
             }
         };
 
