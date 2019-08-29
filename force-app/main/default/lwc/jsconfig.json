@@ -89,6 +89,9 @@
             ],
             "c/exploreBasicNavigation": [
                 "exploreBasicNavigation/exploreBasicNavigation.js"
+            ],
+            "c/exploreFileNavigation": [
+                "exploreFileNavigation/exploreFileNavigation.js"
             ]
         }
     },
