@@ -51,6 +51,9 @@
             "c/exploreReceiverComponent": [
                 "exploreReceiverComponent/exploreReceiverComponent.js"
             ],
+            "c/exploreRecordEditForm": [
+                "exploreRecordEditForm/exploreRecordEditForm.js"
+            ],
             "c/exploreRecordViewEditForm": [
                 "exploreRecordViewEditForm/exploreRecordViewEditForm.js"
             ],
@@ -62,6 +65,9 @@
             ],
             "c/exploreTaxCalculator": [
                 "exploreTaxCalculator/exploreTaxCalculator.js"
+            ],
+            "c/exploreTest": [
+                "exploreTest/exploreTest.js"
             ],
             "c/exploreTodoList": [
                 "exploreTodoList/exploreTodoList.js"
@@ -81,11 +87,8 @@
             "c/wireGetRecordDynamicContact": [
                 "wireGetRecordDynamicContact/wireGetRecordDynamicContact.js"
             ],
-            "c/exploreRecordEditForm": [
-                "exploreRecordEditForm/exploreRecordEditForm.js"
-            ],
-            "c/exploreTest": [
-                "exploreTest/exploreTest.js"
+            "c/exploreBasicNavigation": [
+                "exploreBasicNavigation/exploreBasicNavigation.js"
             ]
         }
     },
