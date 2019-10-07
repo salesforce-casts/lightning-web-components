@@ -9,6 +9,9 @@
             "c/exploreBroadcasterComponent": [
                 "exploreBroadcasterComponent/exploreBroadcasterComponent.js"
             ],
+            "c/exploreContinuationComponent": [
+                "exploreContinuationComponent/exploreContinuationComponent.js"
+            ],
             "c/exploreDataBinding": [
                 "exploreDataBinding/exploreDataBinding.js"
             ],

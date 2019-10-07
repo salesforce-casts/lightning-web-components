@@ -4,14 +4,15 @@ import { NavigationMixin } from 'lightning/navigation'
 
 export default class ExploreBasicNavigation extends NavigationMixin(LightningElement) {
     handleClick(){
-        const pageRef = {
-            type: "standard__objectPage",
+        this[NavigationMixin.Navigate]({
+            type: 'standard__namedPage',
             attributes: {
-                objectApiName: "Case",
-                actionName: "home"
+                pageName: 'filePreview'
+            },
+            state : {
+                recordIds: '0692v000009gn79AAA,0692v000009gn74AAA',
+                selectedRecordId:'0692v000009gn79AAA'
             }
-        };
-
-        this[NavigationMixin.Navigate](pageRef);
+          })
     }
 }
