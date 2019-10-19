@@ -14,7 +14,7 @@ public with sharing class ExlporeContinuationController {
 
         HttpRequest req = new HttpRequest();
         req.setMethod('GET');
-        req.setEndpoint('https://www.googleapis.com/youtube/v3/search?part=snippet&q=salesforce&key=AIzaSyCp4n6R6eSx-4dLGLvwcx57xMWp8dKNaxU');
+        req.setEndpoint('https://www.googleapis.com/youtube/v3/search?part=snippet&q=salesforce&key=XXXXXXXXXXXXXXXXXXX);
 
 
         con.addHttpRequest(req);
