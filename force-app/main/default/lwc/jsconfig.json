@@ -3,6 +3,9 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/exploreAdvancedDataTable": [
+                "exploreAdvancedDataTable/exploreAdvancedDataTable.js"
+            ],
             "c/exploreBasicNavigation": [
                 "exploreBasicNavigation/exploreBasicNavigation.js"
             ],
@@ -54,6 +57,9 @@
             "c/exploreMath": [
                 "exploreMath/exploreMath.js"
             ],
+            "c/exploreModalPopups": [
+                "exploreModalPopups/exploreModalPopups.js"
+            ],
             "c/exploreParentDecorator": [
                 "exploreParentDecorator/exploreParentDecorator.js"
             ],
@@ -95,6 +101,9 @@
             ],
             "c/wireGetRecordDynamicContact": [
                 "wireGetRecordDynamicContact/wireGetRecordDynamicContact.js"
+            ],
+            "c/explorePagination": [
+                "explorePagination/explorePagination.js"
             ]
         }
     },

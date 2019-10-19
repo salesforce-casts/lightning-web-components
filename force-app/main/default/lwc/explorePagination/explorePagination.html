@@ -1,0 +1,17 @@
+<template>
+    <div style="height: 150px;">
+        <lightning-datatable key-field="id" data={contacts} columns={columns}>
+        </lightning-datatable>
+    </div>
+
+    <div class="customPagination">
+        <template for:each={paginationRange} for:item="pageNumber">
+            <a
+                onclick={handlePaginationClick}
+                key={pageNumber}
+                data-target-number={pageNumber}
+                >{pageNumber}</a
+            >
+        </template>
+    </div>
+</template>
