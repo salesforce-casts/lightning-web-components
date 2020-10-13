@@ -1,0 +1,35 @@
+<apex:page lightningStylesheets="true">
+    
+    <button onclick="subscribeMessage()">
+        Subscribe
+    </button>
+    
+    <button onclick="unSubscribeMessage()">
+        Un Subscribe
+    </button>
+    <div class="processedMsg">
+        
+    </div>
+    <script>
+    
+    let accountDataMessageChannel = "{!$MessageChannel.AccountDataMessageChannel__c}";
+    let subscriptionInfo;
+    function subscribeMessage(){
+        if(!subscriptionInfo){
+            subscriptionInfo = sforce.one.subscribe(accountDataMessageChannel, handleMessage);
+        }
+    }
+    
+    function handleMessage(message){
+        var processedMessage = JSON.stringify(message, null, "\t");
+        document.querySelector('.processedMsg').innerHTML = processedMessage;
+    }
+    
+    function unSubscribeMessage(){
+        if(subscriptionInfo){
+            sforce.one.unsubscribe(subscriptionInfo);
+            subscriptionInfo = null;
+        }
+    }
+    </script>
+</apex:page>

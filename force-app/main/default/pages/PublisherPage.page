@@ -1,0 +1,21 @@
+<apex:page lightningStylesheets="true">
+This is the VF Publisher page!!!!    
+    <button onclick="publishMessage()">
+        Send Data
+    </button>
+    
+    <script>
+    
+    	var accountMessageChannel = "{!$MessageChannel.AccountDataMessageChannel__c}";
+    
+    	function publishMessage(){
+            
+            let m = {
+            	recordId : '001XXXXXXXXX',
+                name : 'Teja Test from VF Page'
+            }
+            
+        	sforce.one.publish(accountMessageChannel,m);
+        }
+    </script>
+</apex:page>

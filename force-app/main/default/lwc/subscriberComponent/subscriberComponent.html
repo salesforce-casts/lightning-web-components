@@ -1,0 +1,13 @@
+<template>
+  <lightning-button
+    label="subscribe"
+    onclick={handleSubscribe}
+  ></lightning-button>
+  <lightning-button
+    label="un subscribe"
+    onclick={handleUnsubscribe}
+  ></lightning-button>
+  <lightning-button label="clear" onclick={handleClear}></lightning-button>
+
+  {receivedMessage}
+</template>

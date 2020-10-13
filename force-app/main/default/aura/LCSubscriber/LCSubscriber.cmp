@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    
+    <aura:attribute name="receivedMessage" type="String" />
+    
+	<!-- include lightning:messageChannel tag -->  
+    <lightning:messageChannel type="AccountDataMessageChannel__c"
+                              onMessage="{! c.handleMessage }"></lightning:messageChannel>
+    
+    {! v.receivedMessage }
+</aura:component>

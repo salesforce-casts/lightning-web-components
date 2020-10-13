@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    
+    <aura:attribute name="gInfo" type="String" />
+    <lightning:messageChannel type="GeneralInfoMessageChannel__c"
+                              onMessage="{! c.handleGeneralInfoMessage }"></lightning:messageChannel>   
+    
+    {! v.gInfo }
+    
+    <c:lwcPublisher></c:lwcPublisher>
+</aura:component>

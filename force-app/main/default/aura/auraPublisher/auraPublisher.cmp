@@ -1,0 +1,18 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    
+    <aura:attribute name="firstName" type="String" />
+    <aura:attribute name="lastName" type="String" />
+    <aura:attribute name="profession" type="String" />
+    
+    <lightning:messageChannel type="GeneralInfoMessageChannel__c"
+                              aura:id="generalInfoPublisher"></lightning:messageChannel>
+    
+    <lightning:input label="FirstName" value="{! v.firstName }" ></lightning:input>
+    <lightning:input label="LastName" value="{! v.lastName }" ></lightning:input>
+    <lightning:input label="Profession" value="{! v.profession }" ></lightning:input>
+    
+    <lightning:button label="send info" onclick="{! c.handleSendGeneralInfo }"></lightning:button>
+    
+    <c:lwcSubscriber></c:lwcSubscriber>
+    
+</aura:component>

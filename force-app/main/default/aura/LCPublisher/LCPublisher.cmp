@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    
+    This is the publisher Aura Component!!!
+	<!--Step1: include Lightning:messageChannel tag -->    
+    <lightning:messageChannel type="AccountDataMessageChannel__c"
+                              aura:id="accountMesasgeChannel">
+    </lightning:messageChannel>
+    
+    <lightning:button label="Send Data" onclick="{! c.handleSendData }" />
+</aura:component>
